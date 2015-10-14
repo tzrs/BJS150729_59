@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8201AD351BC4AC760094AE07 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8201AD151BC4AC760094AE07 /* MKAnnotationView+WebCache.m */; };
+		8201AD361BC4AC760094AE07 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 8201AD171BC4AC760094AE07 /* NSData+ImageContentType.m */; };
+		8201AD371BC4AC760094AE07 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8201AD191BC4AC760094AE07 /* SDImageCache.m */; };
+		8201AD381BC4AC760094AE07 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8201AD1B1BC4AC760094AE07 /* SDWebImageCompat.m */; };
+		8201AD391BC4AC760094AE07 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8201AD1D1BC4AC760094AE07 /* SDWebImageDecoder.m */; };
+		8201AD3A1BC4AC760094AE07 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8201AD1F1BC4AC760094AE07 /* SDWebImageDownloader.m */; };
+		8201AD3B1BC4AC760094AE07 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8201AD211BC4AC760094AE07 /* SDWebImageDownloaderOperation.m */; };
+		8201AD3C1BC4AC760094AE07 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8201AD231BC4AC760094AE07 /* SDWebImageManager.m */; };
+		8201AD3D1BC4AC760094AE07 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8201AD261BC4AC760094AE07 /* SDWebImagePrefetcher.m */; };
+		8201AD3E1BC4AC760094AE07 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8201AD281BC4AC760094AE07 /* UIButton+WebCache.m */; };
+		8201AD3F1BC4AC760094AE07 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 8201AD2A1BC4AC760094AE07 /* UIImage+GIF.m */; };
+		8201AD401BC4AC760094AE07 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8201AD2C1BC4AC760094AE07 /* UIImage+MultiFormat.m */; };
+		8201AD411BC4AC760094AE07 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 8201AD2E1BC4AC760094AE07 /* UIImage+WebP.m */; };
+		8201AD421BC4AC760094AE07 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8201AD301BC4AC760094AE07 /* UIImageView+HighlightedWebCache.m */; };
+		8201AD431BC4AC760094AE07 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8201AD321BC4AC760094AE07 /* UIImageView+WebCache.m */; };
+		8201AD441BC4AC760094AE07 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8201AD341BC4AC760094AE07 /* UIView+WebCacheOperation.m */; };
+		82023FAE1BC3591A005EDB34 /* GetDataTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 82023FAD1BC3591A005EDB34 /* GetDataTools.m */; };
+		82023FB11BC35AE0005EDB34 /* MusicInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82023FB01BC35AE0005EDB34 /* MusicInfoModel.m */; };
+		82023FB41BC35AEF005EDB34 /* MusicLyricModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82023FB31BC35AEF005EDB34 /* MusicLyricModel.m */; };
+		820D1D991BC226830003CFAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 820D1D981BC226830003CFAC /* main.m */; };
+		820D1DA21BC226830003CFAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820D1DA01BC226830003CFAC /* Main.storyboard */; };
+		820D1DA41BC226830003CFAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820D1DA31BC226830003CFAC /* Images.xcassets */; };
+		820D1DA71BC226830003CFAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 820D1DA51BC226830003CFAC /* LaunchScreen.xib */; };
+		820D1DB31BC226830003CFAC /* MusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 820D1DB21BC226830003CFAC /* MusicPlayerTests.m */; };
+		820D1DD61BC228480003CFAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 820D1DC21BC228480003CFAC /* AppDelegate.m */; };
+		820D1DD71BC228480003CFAC /* MusicListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820D1DC71BC228480003CFAC /* MusicListTableViewController.m */; };
+		82FDCF6F1BC2597100AF61A4 /* MusicListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FDCF6D1BC2597100AF61A4 /* MusicListTableViewCell.m */; };
+		82FDCF701BC2597100AF61A4 /* MusicListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82FDCF6E1BC2597100AF61A4 /* MusicListTableViewCell.xib */; };
+		82FDCF731BC2635E00AF61A4 /* MusicPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FDCF721BC2635E00AF61A4 /* MusicPlayViewController.m */; };
+		82FDCF791BC269BE00AF61A4 /* MusicPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FDCF781BC269BE00AF61A4 /* MusicPlayView.m */; };
+		82FE9FF61BC371D70013A051 /* MusicPlayTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FE9FF51BC371D70013A051 /* MusicPlayTools.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		820D1DAD1BC226830003CFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 820D1D8B1BC226830003CFAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 820D1D921BC226830003CFAC;
+			remoteInfo = MusicPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8201AD141BC4AC760094AE07 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		8201AD151BC4AC760094AE07 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		8201AD161BC4AC760094AE07 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		8201AD171BC4AC760094AE07 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		8201AD181BC4AC760094AE07 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		8201AD191BC4AC760094AE07 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		8201AD1A1BC4AC760094AE07 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		8201AD1B1BC4AC760094AE07 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		8201AD1C1BC4AC760094AE07 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		8201AD1D1BC4AC760094AE07 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		8201AD1E1BC4AC760094AE07 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		8201AD1F1BC4AC760094AE07 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		8201AD201BC4AC760094AE07 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		8201AD211BC4AC760094AE07 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		8201AD221BC4AC760094AE07 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		8201AD231BC4AC760094AE07 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		8201AD241BC4AC760094AE07 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		8201AD251BC4AC760094AE07 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		8201AD261BC4AC760094AE07 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		8201AD271BC4AC760094AE07 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		8201AD281BC4AC760094AE07 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		8201AD291BC4AC760094AE07 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		8201AD2A1BC4AC760094AE07 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		8201AD2B1BC4AC760094AE07 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		8201AD2C1BC4AC760094AE07 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		8201AD2D1BC4AC760094AE07 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		8201AD2E1BC4AC760094AE07 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		8201AD2F1BC4AC760094AE07 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		8201AD301BC4AC760094AE07 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		8201AD311BC4AC760094AE07 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		8201AD321BC4AC760094AE07 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		8201AD331BC4AC760094AE07 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		8201AD341BC4AC760094AE07 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		82023FAC1BC3591A005EDB34 /* GetDataTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetDataTools.h; sourceTree = "<group>"; };
+		82023FAD1BC3591A005EDB34 /* GetDataTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetDataTools.m; sourceTree = "<group>"; };
+		82023FAF1BC35AE0005EDB34 /* MusicInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicInfoModel.h; sourceTree = "<group>"; };
+		82023FB01BC35AE0005EDB34 /* MusicInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicInfoModel.m; sourceTree = "<group>"; };
+		82023FB21BC35AEF005EDB34 /* MusicLyricModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLyricModel.h; sourceTree = "<group>"; };
+		82023FB31BC35AEF005EDB34 /* MusicLyricModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLyricModel.m; sourceTree = "<group>"; };
+		820D1D931BC226830003CFAC /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		820D1D971BC226830003CFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820D1D981BC226830003CFAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		820D1DA11BC226830003CFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		820D1DA31BC226830003CFAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		820D1DA61BC226830003CFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		820D1DAC1BC226830003CFAC /* MusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		820D1DB11BC226830003CFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820D1DB21BC226830003CFAC /* MusicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerTests.m; sourceTree = "<group>"; };
+		820D1DC11BC228480003CFAC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		820D1DC21BC228480003CFAC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		820D1DC61BC228480003CFAC /* MusicListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListTableViewController.h; sourceTree = "<group>"; };
+		820D1DC71BC228480003CFAC /* MusicListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListTableViewController.m; sourceTree = "<group>"; };
+		820D1DD01BC228480003CFAC /* APPHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPHeader.h; sourceTree = "<group>"; };
+		820D1DD11BC228480003CFAC /* IMPHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMPHeader.h; sourceTree = "<group>"; };
+		820D1DD21BC228480003CFAC /* KEYHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KEYHeader.h; sourceTree = "<group>"; };
+		820D1DD31BC228480003CFAC /* URLHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHeader.h; sourceTree = "<group>"; };
+		820D1DD81BC22AEC0003CFAC /* MusicPlayerPCH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerPCH.pch; sourceTree = "<group>"; };
+		82FDCF6C1BC2597100AF61A4 /* MusicListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListTableViewCell.h; sourceTree = "<group>"; };
+		82FDCF6D1BC2597100AF61A4 /* MusicListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListTableViewCell.m; sourceTree = "<group>"; };
+		82FDCF6E1BC2597100AF61A4 /* MusicListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicListTableViewCell.xib; sourceTree = "<group>"; };
+		82FDCF711BC2635E00AF61A4 /* MusicPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayViewController.h; sourceTree = "<group>"; };
+		82FDCF721BC2635E00AF61A4 /* MusicPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayViewController.m; sourceTree = "<group>"; };
+		82FDCF771BC269BE00AF61A4 /* MusicPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayView.h; sourceTree = "<group>"; };
+		82FDCF781BC269BE00AF61A4 /* MusicPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayView.m; sourceTree = "<group>"; };
+		82FE9FF41BC371D70013A051 /* MusicPlayTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayTools.h; sourceTree = "<group>"; };
+		82FE9FF51BC371D70013A051 /* MusicPlayTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayTools.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		820D1D901BC226830003CFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820D1DA91BC226830003CFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8201AD131BC4AC760094AE07 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				8201AD141BC4AC760094AE07 /* MKAnnotationView+WebCache.h */,
+				8201AD151BC4AC760094AE07 /* MKAnnotationView+WebCache.m */,
+				8201AD161BC4AC760094AE07 /* NSData+ImageContentType.h */,
+				8201AD171BC4AC760094AE07 /* NSData+ImageContentType.m */,
+				8201AD181BC4AC760094AE07 /* SDImageCache.h */,
+				8201AD191BC4AC760094AE07 /* SDImageCache.m */,
+				8201AD1A1BC4AC760094AE07 /* SDWebImageCompat.h */,
+				8201AD1B1BC4AC760094AE07 /* SDWebImageCompat.m */,
+				8201AD1C1BC4AC760094AE07 /* SDWebImageDecoder.h */,
+				8201AD1D1BC4AC760094AE07 /* SDWebImageDecoder.m */,
+				8201AD1E1BC4AC760094AE07 /* SDWebImageDownloader.h */,
+				8201AD1F1BC4AC760094AE07 /* SDWebImageDownloader.m */,
+				8201AD201BC4AC760094AE07 /* SDWebImageDownloaderOperation.h */,
+				8201AD211BC4AC760094AE07 /* SDWebImageDownloaderOperation.m */,
+				8201AD221BC4AC760094AE07 /* SDWebImageManager.h */,
+				8201AD231BC4AC760094AE07 /* SDWebImageManager.m */,
+				8201AD241BC4AC760094AE07 /* SDWebImageOperation.h */,
+				8201AD251BC4AC760094AE07 /* SDWebImagePrefetcher.h */,
+				8201AD261BC4AC760094AE07 /* SDWebImagePrefetcher.m */,
+				8201AD271BC4AC760094AE07 /* UIButton+WebCache.h */,
+				8201AD281BC4AC760094AE07 /* UIButton+WebCache.m */,
+				8201AD291BC4AC760094AE07 /* UIImage+GIF.h */,
+				8201AD2A1BC4AC760094AE07 /* UIImage+GIF.m */,
+				8201AD2B1BC4AC760094AE07 /* UIImage+MultiFormat.h */,
+				8201AD2C1BC4AC760094AE07 /* UIImage+MultiFormat.m */,
+				8201AD2D1BC4AC760094AE07 /* UIImage+WebP.h */,
+				8201AD2E1BC4AC760094AE07 /* UIImage+WebP.m */,
+				8201AD2F1BC4AC760094AE07 /* UIImageView+HighlightedWebCache.h */,
+				8201AD301BC4AC760094AE07 /* UIImageView+HighlightedWebCache.m */,
+				8201AD311BC4AC760094AE07 /* UIImageView+WebCache.h */,
+				8201AD321BC4AC760094AE07 /* UIImageView+WebCache.m */,
+				8201AD331BC4AC760094AE07 /* UIView+WebCacheOperation.h */,
+				8201AD341BC4AC760094AE07 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		820D1D8A1BC226830003CFAC = {
+			isa = PBXGroup;
+			children = (
+				820D1D951BC226830003CFAC /* MusicPlayer */,
+				820D1DAF1BC226830003CFAC /* MusicPlayerTests */,
+				820D1D941BC226830003CFAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		820D1D941BC226830003CFAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				820D1D931BC226830003CFAC /* MusicPlayer.app */,
+				820D1DAC1BC226830003CFAC /* MusicPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		820D1D951BC226830003CFAC /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				820D1DBF1BC228480003CFAC /* Source */,
+				820D1DA01BC226830003CFAC /* Main.storyboard */,
+				820D1DA31BC226830003CFAC /* Images.xcassets */,
+				820D1DA51BC226830003CFAC /* LaunchScreen.xib */,
+				820D1D961BC226830003CFAC /* Supporting Files */,
+				820D1DD81BC22AEC0003CFAC /* MusicPlayerPCH.pch */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		820D1D961BC226830003CFAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				820D1D971BC226830003CFAC /* Info.plist */,
+				820D1D981BC226830003CFAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		820D1DAF1BC226830003CFAC /* MusicPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				820D1DB21BC226830003CFAC /* MusicPlayerTests.m */,
+				820D1DB01BC226830003CFAC /* Supporting Files */,
+			);
+			path = MusicPlayerTests;
+			sourceTree = "<group>";
+		};
+		820D1DB01BC226830003CFAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				820D1DB11BC226830003CFAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		820D1DBF1BC228480003CFAC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				820D1DC01BC228480003CFAC /* Application */,
+				820D1DC31BC228480003CFAC /* BaseClass */,
+				820D1DC41BC228480003CFAC /* CodeClass */,
+				820D1DCA1BC228480003CFAC /* DataBase */,
+				820D1DCB1BC228480003CFAC /* EnNetWork */,
+				820D1DCC1BC228480003CFAC /* Framework */,
+				820D1DCD1BC228480003CFAC /* Global */,
+				820D1DCE1BC228480003CFAC /* Helper */,
+				820D1DCF1BC228480003CFAC /* Macro */,
+				820D1DD41BC228480003CFAC /* Resources */,
+				820D1DD51BC228480003CFAC /* TheThird */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		820D1DC01BC228480003CFAC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				820D1DC11BC228480003CFAC /* AppDelegate.h */,
+				820D1DC21BC228480003CFAC /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		820D1DC31BC228480003CFAC /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				82023FAC1BC3591A005EDB34 /* GetDataTools.h */,
+				82023FAD1BC3591A005EDB34 /* GetDataTools.m */,
+				82FE9FF41BC371D70013A051 /* MusicPlayTools.h */,
+				82FE9FF51BC371D70013A051 /* MusicPlayTools.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		820D1DC41BC228480003CFAC /* CodeClass */ = {
+			isa = PBXGroup;
+			children = (
+				820D1DC51BC228480003CFAC /* Controller */,
+				820D1DC81BC228480003CFAC /* Model */,
+				820D1DC91BC228480003CFAC /* View */,
+			);
+			path = CodeClass;
+			sourceTree = "<group>";
+		};
+		820D1DC51BC228480003CFAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				820D1DC61BC228480003CFAC /* MusicListTableViewController.h */,
+				820D1DC71BC228480003CFAC /* MusicListTableViewController.m */,
+				82FDCF711BC2635E00AF61A4 /* MusicPlayViewController.h */,
+				82FDCF721BC2635E00AF61A4 /* MusicPlayViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		820D1DC81BC228480003CFAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82023FAF1BC35AE0005EDB34 /* MusicInfoModel.h */,
+				82023FB01BC35AE0005EDB34 /* MusicInfoModel.m */,
+				82023FB21BC35AEF005EDB34 /* MusicLyricModel.h */,
+				82023FB31BC35AEF005EDB34 /* MusicLyricModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		820D1DC91BC228480003CFAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82FDCF6C1BC2597100AF61A4 /* MusicListTableViewCell.h */,
+				82FDCF6D1BC2597100AF61A4 /* MusicListTableViewCell.m */,
+				82FDCF6E1BC2597100AF61A4 /* MusicListTableViewCell.xib */,
+				82FDCF771BC269BE00AF61A4 /* MusicPlayView.h */,
+				82FDCF781BC269BE00AF61A4 /* MusicPlayView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		820D1DCA1BC228480003CFAC /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		820D1DCB1BC228480003CFAC /* EnNetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EnNetWork;
+			sourceTree = "<group>";
+		};
+		820D1DCC1BC228480003CFAC /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		820D1DCD1BC228480003CFAC /* Global */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		820D1DCE1BC228480003CFAC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		820D1DCF1BC228480003CFAC /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				820D1DD01BC228480003CFAC /* APPHeader.h */,
+				820D1DD11BC228480003CFAC /* IMPHeader.h */,
+				820D1DD21BC228480003CFAC /* KEYHeader.h */,
+				820D1DD31BC228480003CFAC /* URLHeader.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		820D1DD41BC228480003CFAC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		820D1DD51BC228480003CFAC /* TheThird */ = {
+			isa = PBXGroup;
+			children = (
+				8201AD131BC4AC760094AE07 /* SDWebImage */,
+			);
+			path = TheThird;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		820D1D921BC226830003CFAC /* MusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820D1DB61BC226830003CFAC /* Build configuration list for PBXNativeTarget "MusicPlayer" */;
+			buildPhases = (
+				820D1D8F1BC226830003CFAC /* Sources */,
+				820D1D901BC226830003CFAC /* Frameworks */,
+				820D1D911BC226830003CFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicPlayer;
+			productName = MusicPlayer;
+			productReference = 820D1D931BC226830003CFAC /* MusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		820D1DAB1BC226830003CFAC /* MusicPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820D1DB91BC226830003CFAC /* Build configuration list for PBXNativeTarget "MusicPlayerTests" */;
+			buildPhases = (
+				820D1DA81BC226830003CFAC /* Sources */,
+				820D1DA91BC226830003CFAC /* Frameworks */,
+				820D1DAA1BC226830003CFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				820D1DAE1BC226830003CFAC /* PBXTargetDependency */,
+			);
+			name = MusicPlayerTests;
+			productName = MusicPlayerTests;
+			productReference = 820D1DAC1BC226830003CFAC /* MusicPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		820D1D8B1BC226830003CFAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "李志强";
+				TargetAttributes = {
+					820D1D921BC226830003CFAC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					820D1DAB1BC226830003CFAC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 820D1D921BC226830003CFAC;
+					};
+				};
+			};
+			buildConfigurationList = 820D1D8E1BC226830003CFAC /* Build configuration list for PBXProject "MusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 820D1D8A1BC226830003CFAC;
+			productRefGroup = 820D1D941BC226830003CFAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				820D1D921BC226830003CFAC /* MusicPlayer */,
+				820D1DAB1BC226830003CFAC /* MusicPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		820D1D911BC226830003CFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820D1DA21BC226830003CFAC /* Main.storyboard in Resources */,
+				820D1DA71BC226830003CFAC /* LaunchScreen.xib in Resources */,
+				820D1DA41BC226830003CFAC /* Images.xcassets in Resources */,
+				82FDCF701BC2597100AF61A4 /* MusicListTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820D1DAA1BC226830003CFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		820D1D8F1BC226830003CFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FDCF731BC2635E00AF61A4 /* MusicPlayViewController.m in Sources */,
+				8201AD351BC4AC760094AE07 /* MKAnnotationView+WebCache.m in Sources */,
+				82023FB11BC35AE0005EDB34 /* MusicInfoModel.m in Sources */,
+				8201AD3D1BC4AC760094AE07 /* SDWebImagePrefetcher.m in Sources */,
+				8201AD3C1BC4AC760094AE07 /* SDWebImageManager.m in Sources */,
+				820D1DD61BC228480003CFAC /* AppDelegate.m in Sources */,
+				82FE9FF61BC371D70013A051 /* MusicPlayTools.m in Sources */,
+				8201AD431BC4AC760094AE07 /* UIImageView+WebCache.m in Sources */,
+				8201AD381BC4AC760094AE07 /* SDWebImageCompat.m in Sources */,
+				820D1D991BC226830003CFAC /* main.m in Sources */,
+				8201AD391BC4AC760094AE07 /* SDWebImageDecoder.m in Sources */,
+				8201AD401BC4AC760094AE07 /* UIImage+MultiFormat.m in Sources */,
+				8201AD411BC4AC760094AE07 /* UIImage+WebP.m in Sources */,
+				8201AD3B1BC4AC760094AE07 /* SDWebImageDownloaderOperation.m in Sources */,
+				8201AD441BC4AC760094AE07 /* UIView+WebCacheOperation.m in Sources */,
+				8201AD3A1BC4AC760094AE07 /* SDWebImageDownloader.m in Sources */,
+				8201AD3F1BC4AC760094AE07 /* UIImage+GIF.m in Sources */,
+				820D1DD71BC228480003CFAC /* MusicListTableViewController.m in Sources */,
+				82FDCF791BC269BE00AF61A4 /* MusicPlayView.m in Sources */,
+				82FDCF6F1BC2597100AF61A4 /* MusicListTableViewCell.m in Sources */,
+				8201AD421BC4AC760094AE07 /* UIImageView+HighlightedWebCache.m in Sources */,
+				82023FB41BC35AEF005EDB34 /* MusicLyricModel.m in Sources */,
+				8201AD371BC4AC760094AE07 /* SDImageCache.m in Sources */,
+				8201AD3E1BC4AC760094AE07 /* UIButton+WebCache.m in Sources */,
+				8201AD361BC4AC760094AE07 /* NSData+ImageContentType.m in Sources */,
+				82023FAE1BC3591A005EDB34 /* GetDataTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820D1DA81BC226830003CFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820D1DB31BC226830003CFAC /* MusicPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		820D1DAE1BC226830003CFAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 820D1D921BC226830003CFAC /* MusicPlayer */;
+			targetProxy = 820D1DAD1BC226830003CFAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		820D1DA01BC226830003CFAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820D1DA11BC226830003CFAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		820D1DA51BC226830003CFAC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820D1DA61BC226830003CFAC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		820D1DB41BC226830003CFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		820D1DB51BC226830003CFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		820D1DB71BC226830003CFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MusicPlayer/MusicPlayerPCH.pch";
+				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		820D1DB81BC226830003CFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MusicPlayer/MusicPlayerPCH.pch";
+				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		820D1DBA1BC226830003CFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicPlayer.app/MusicPlayer";
+			};
+			name = Debug;
+		};
+		820D1DBB1BC226830003CFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicPlayer.app/MusicPlayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		820D1D8E1BC226830003CFAC /* Build configuration list for PBXProject "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820D1DB41BC226830003CFAC /* Debug */,
+				820D1DB51BC226830003CFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820D1DB61BC226830003CFAC /* Build configuration list for PBXNativeTarget "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820D1DB71BC226830003CFAC /* Debug */,
+				820D1DB81BC226830003CFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820D1DB91BC226830003CFAC /* Build configuration list for PBXNativeTarget "MusicPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820D1DBA1BC226830003CFAC /* Debug */,
+				820D1DBB1BC226830003CFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 820D1D8B1BC226830003CFAC /* Project object */;
+}
