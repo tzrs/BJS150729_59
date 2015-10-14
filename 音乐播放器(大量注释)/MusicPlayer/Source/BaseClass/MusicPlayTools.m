@@ -28,6 +28,7 @@ static MusicPlayTools * mp = nil;
     return mp;
 }
 
+// 改改试试
 // 这里为什么要重写init方法呢?
 // 因为,我们应该得到 "某首歌曲播放结束" 这一事件,之后由外界来决定"播放结束之后采取什么操作".
 // AVPlayer并没有通过block或者代理向我们返回这一状态(事件),而是向通知中心注册了一条通知(AVPlayerItemDidPlayToEndTimeNotification),我们也只有这一条途径获取播放结束这一事件.
